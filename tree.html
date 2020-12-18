@@ -47,7 +47,7 @@
 
 				function createbranch(x, y, z){
 					//textures
-					textureB = new THREE.TextureLoader().load( 'textures/branch.jpg' ); //branches
+					textureB = new THREE.TextureLoader().load( 'branch.jpg' ); //branches
 
 					//branches de l'arbre
 					var materialB = new THREE.MeshPhongMaterial( { map: textureB, dithering: true} );
@@ -76,7 +76,7 @@
 
 				function createTronc(x, y, z, size, height){
 
-	        textureT = new THREE.TextureLoader().load( 'textures/tronc.jpg' ); //tronc
+	        textureT = new THREE.TextureLoader().load( 'tronc.jpg' ); //tronc
 
 	        //tronc
 	        const geometryT = new THREE.CylinderBufferGeometry( size, 50, height, 50 );
